@@ -1,0 +1,931 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/*Main code start*/
+.wrapper-full {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*Header code start*/
+.header-full {
+    background-color: aqua;
+}
+
+.header {
+    height: 40px;
+    line-height: 40px;
+}
+
+.header p {
+    float: left;
+    padding-right: 598px;
+}
+
+.header ul {
+    overflow: hidden;
+}
+
+.header ul li {
+    float: left;
+}
+
+.header ul li a {
+    color: black;
+}
+
+.header ul li a:hover {
+    color: blue;
+}
+
+/*Navbar code start*/
+.navbar-full {
+    background-color: red;
+}
+
+.navbar {
+    height: 50px;
+    background-color: none;
+    line-height: 50px;
+}
+
+.navbar > ul {
+    overflow: hidden;
+}
+
+.navbar > ul > li {
+    float: left;
+    margin-right: 5px;
+}
+
+.navbar > ul > li > a {
+    color: yellow;
+    display: block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+}
+
+.navbar > ul > li > a:hover {
+    color: black;
+    background-color: green;
+}
+
+/*Drop down menu*/
+.navbar > ul > li > ul {
+    position: absolute;
+    display: none;
+}
+
+.navbar > ul > li:hover > ul {
+    display: block;
+    background-color: greenyellow;
+}
+
+.navbar > ul > li > ul > li {}
+
+.navbar > ul > li > ul > li > a {
+    display: block;
+    padding: 3px 70px 3px 70px;
+    line-height: 80px;
+    border-bottom: 2px solid black;
+}
+
+.navbar > ul > li > ul > li > a:hover {
+    color: white;
+    background-color: black;
+    transition: all linear 0.8s;
+}
+
+
+/*Bannar code start*/
+.bannar-full {
+    background-image: url(../images/Displaypic1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar {
+    height: 1500px;
+}
+
+/*Content code start*/
+.content-full {}
+
+.content {
+    padding: 20px 0px;
+}
+
+.content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content ul {
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.content ul li {
+    float: left;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.content ul li a {
+    padding: 40px 60px;
+    display: block;
+    color: green
+}
+
+.content ul li a:hover {
+    color: white;
+    background-color: black;
+    transition: all linear 0.3s;
+    font-size: 17px;
+}
+
+/*Footer code start*/
+.footer-full {
+    background-color: silver;
+}
+
+.footer {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer p {
+    float: left;
+}
+
+.footer .right {
+    padding-left: 673px;
+}
+
+/*header primary code start*/
+.primary-full {
+    background-color: whitesmoke;
+
+}
+
+.primary {
+    height: 40px;
+    line-height: 40px;
+}
+
+.primary p {
+    color: deepskyblue;
+}
+
+/*Bannar code start*/
+.bannar1-full {
+    background-image: url(../images/primarypic1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar1 {
+    height: 600px;
+}
+
+/*Content code start*/
+.content1-full {}
+
+.content1 {
+    padding: 20px 0px;
+}
+
+.content1 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content1 ul {
+    overflow: hidden;
+}
+
+.content1 ul li {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+}
+
+
+/*header highschool code start*/
+.high-full {
+    background-color: whitesmoke;
+
+}
+
+.high {
+    height: 40px;
+    line-height: 40px;
+}
+
+.high p {
+    color: deepskyblue;
+}
+
+/*Bannar code start*/
+.bannar2-full {
+    background-image: url(../images/highschoolpic1.JPG);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar2 {
+    height: 600px;
+}
+
+/*Content code start*/
+.content2-full {}
+
+.content2 {
+    padding: 20px 0px;
+}
+
+.content2 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content2 ul {
+    overflow: hidden;
+}
+
+.content2 ul li {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+
+/*header college code start*/
+.college-full {
+    background-color: whitesmoke;
+
+}
+
+.college {
+    height: 40px;
+    line-height: 40px;
+}
+
+.college p {
+    color: deepskyblue;
+}
+
+/*Bannar code start*/
+.bannar3-full {
+    background-image: url(../images/collegepic2jpg.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar3 {
+    height: 600px;
+    width: 400px;
+}
+
+/*Content code start*/
+.content3-full {}
+
+.content3 {
+    padding: 20px 0px;
+}
+
+.content3 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content3 ul {
+    overflow: hidden;
+}
+
+.content3 ul li {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+/*college footer code start*/
+.footer3-full {
+    background-color: silver;
+}
+
+.footer3 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer3 p {
+    float: left;
+}
+
+.footer3 .right {
+    padding-left: 673px;
+}
+
+/* shakrain Bannar code start*/
+.bannar4-full {
+    background-image: url(../images/shakrainpic10.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar4 {
+    height: 720px;
+    width: 1280px;
+}
+
+/* shakrain Content code start*/
+.content4-full {}
+
+.content4 {
+    padding: 20px 0px;
+}
+
+.content4 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content4 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* shakrain Footer code start*/
+.footer4-full {
+    background-color: blanchedalmond;
+}
+
+.footer4 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer4 p {
+    float: left;
+}
+
+.footer4 .right {
+    padding-left: 673px;
+}
+
+/* pohela baishakh Bannar code start*/
+.bannar5-full {
+    background-image: url(../images/baishakhpic5.gif);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar5 {
+    height: 600px;
+    width: 300px;
+}
+
+/* pohela baishakh content code start*/
+.content5-full {}
+
+.content5 {
+    padding: 20px 0px;
+}
+
+.content5 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content5 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* pohela baishakh Footer code start*/
+.footer5-full {
+    background-color: silver;
+}
+
+.footer5 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer5 p {
+    float: left;
+}
+
+.footer5 .right {
+    padding-left: 673px;
+}
+
+/* newyear Bannar code start*/
+.bannar6-full {
+    background-image: url(../images/newyearpic1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar6 {
+    height: 700px;
+    width: 1000px;
+}
+
+/* newyear content code start*/
+.content6-full {}
+
+.content6 {
+    padding: 20px 0px;
+}
+
+.content6 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content6 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* newyear Footer code start*/
+.footer6-full {
+    background-color: silver;
+}
+
+.footer6 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer6 p {
+    float: left;
+}
+
+.footer6 .right {
+    padding-left: 673px;
+}
+
+/* kacchibiriyani bannar code start*/
+.bannar7-full {
+    background-image: url(../images/kacchibiriyanpic3.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar7 {
+    height: 700px;
+    width: 800px;
+}
+
+/*kacchibiriyani content code start*/
+.content7-full {}
+
+.content7 {
+    padding: 20px 0px;
+}
+
+.content7 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content7 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* kacchibiriyani Footer code start*/
+.footer7-full {
+    background-color: silver;
+}
+
+.footer7 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer7 p {
+    float: left;
+}
+
+.footer7 .right {
+    padding-left: 673px;
+}
+
+/* doibora bannar code start*/
+.bannar8-full {
+    background-image: url(../images/doiborapic4.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar8 {
+    height: 1500px;
+    width: 500px;
+}
+
+/*doibara content code start*/
+.content8-full {}
+
+.content8 {
+    padding: 20px 0px;
+}
+
+.content8 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content8 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* doibara Footer code start*/
+.footer8-full {
+    background-color: silver;
+}
+
+.footer8 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer8 p {
+    float: left;
+}
+
+.footer8 .right {
+    padding-left: 673px;
+}
+
+/* bakkharkhani bannar code start*/
+.bannar9-full {
+    background-image: url(../images/bakkharkhanipic1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar9 {
+    height: 800px;
+    width: 500px;
+}
+
+/*bakkharkhani content code start*/
+.content9-full {}
+
+.content9 {
+    padding: 20px 0px;
+}
+
+.content9 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content9 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/*  bakkharkhani Footer code start*/
+.footer9-full {
+    background-color: silver;
+}
+
+.footer9 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer9 p {
+    float: left;
+}
+
+.footer9 .right {
+    padding-left: 673px;
+}
+
+/* nehari bannar code start*/
+.bannar10-full {
+    background-image: url(../images/neharipic1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar10 {
+    height: 1000px;
+    width: 700px;
+}
+
+/*nehari content code start*/
+.content10-full {}
+
+.content10 {
+    padding: 20px 0px;
+}
+
+.content10 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content10 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/*  nehari Footer code start*/
+.footer10-full {
+    background-color: silver;
+}
+
+.footer10 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer10 p {
+    float: left;
+}
+
+.footer10 .right {
+    padding-left: 673px;
+}
+
+/* grandarea bannar code start*/
+.bannar11-full {
+    background-image: url(../images/grandareapic6.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar11 {
+    height: 800px;
+    width: 500px;
+}
+
+/*grandarea content code start*/
+.content11-full {}
+
+.content11 {
+    padding: 20px 0px;
+}
+
+.content11 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content11 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/*  grandarea Footer code start*/
+.footer11-full {
+    background-color: silver;
+}
+
+.footer11 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer11 p {
+    float: left;
+}
+
+.footer11 .right {
+    padding-left: 673px;
+}
+
+/* homedistict bannar code start*/
+.bannar12-full {
+    background-image: url(../images/dhakapic9.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar12 {
+    height: 800px;
+}
+
+/*homedisttict content code start*/
+.content12-full {}
+
+.content12 {
+    padding: 20px 0px;
+}
+
+.content12 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content12 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/*  homedistict Footer code start*/
+.footer12-full {
+    background-color: silver;
+}
+
+.footer12 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer12 p {
+    float: left;
+}
+
+.footer12 .right {
+    padding-left: 673px;
+}
+
+/*header university code start*/
+.university-full {
+    background-color: whitesmoke;
+
+}
+
+.univeristy {
+    height: 40px;
+    line-height: 40px;
+}
+
+.university p {
+    color: deepskyblue;
+    padding: 10px;
+}
+
+/*Bannar code start*/
+.bannar13-full {
+    background-image: url(../images/universitypic1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannar13 {
+    height: 700px;
+}
+
+/*Content code start*/
+.content13-full {}
+
+.content13 {
+    padding: 20px 0px;
+}
+
+.content13 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    border-bottom: 5px solid green;
+}
+
+.content13 ul {
+    overflow: hidden;
+}
+
+.content13 ul li {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+/*university footer code start*/
+.footer13-full {
+    background-color: silver;
+}
+
+.footer13 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer13 p {
+    float: left;
+}
+
+.footer13 .right {
+    padding-left: 673px;
+}
+/* contact Footer code start*/
+.footer14-full {
+    background-color: silver;
+}
+
+.footer14 {
+    height: 100px;
+    line-height: 40px;
+}
+
+.footer14 p {
+    float: left;
+}
+
+.footer14 .right {
+    padding-left: 673px;
+}
+
+
+
